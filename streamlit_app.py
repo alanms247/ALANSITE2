@@ -25,8 +25,8 @@ col1, col2, col3 = st.columns(3)
 # =========================================
 with col1:
     st.image("images.png", use_container_width=True)
-    st.subheader("🚀 Amazon")
-    st.write("Empresa de tecnologia espacial fundada por Elon Musk.")
+    st.subheader("Amazon")
+    st.write("Empresa de tecnologia e compras online líder.")
     st.link_button(
         "Acessar Site",
         "https://www.amazon.com"
@@ -38,7 +38,7 @@ with col1:
 with col2:
     st.image("images (1).png", use_container_width=True)
     st.subheader("Microsoft")
-    st.write("Empresa mundialmente conhecida por iPhones e Macs.")
+    st.write("Empresa mundialmente conhecida pelo Windows.")
     st.link_button(
         "Acessar Site",
         "https://www.microsoft.com"
@@ -49,8 +49,8 @@ with col2:
 # =========================================
 with col3:
     st.image("images (2).png", use_container_width=True)
-    st.subheader("🎬 Youtube")
-    st.write("Plataforma líder de filmes e séries online.")
+    st.subheader("Youtube")
+    st.write("Plataforma líder de vídeos online.")
     st.link_button(
         "Acessar Site",
         "https://www.youtube.com"
